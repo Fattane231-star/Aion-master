@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.ActivityHome">
+
+<FrameLayout
+
+        android:id="@+id/LL_Frame_sabt_agahi1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vi">
+    </androidx.viewpager.widget.ViewPager>
+</FrameLayout>
+</LinearLayout>
